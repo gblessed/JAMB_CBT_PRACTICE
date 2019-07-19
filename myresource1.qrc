@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>logindb.sqlite</file>
+        <file>IntroVideo.mp4</file>
+        <file>CBT-Lab1.jpg</file>
+        <file>chemistry.txt</file>
+    </qresource>
+</RCC>
