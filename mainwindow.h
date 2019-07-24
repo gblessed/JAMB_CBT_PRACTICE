@@ -14,6 +14,11 @@
 #include <QRegularExpression>
 #include <QFile>
 #include <QProcess>
+#include <QJsonArray>
+#include <QJsonObject>
+#include <QJsonDocument>
+#include <QJsonValue>
+
 namespace Ui {
 class MainWindow;
 }
@@ -23,25 +28,25 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = 0);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
        int calculateScore();
 private:
      QVideoWidget *introDisplay;
      QMediaPlayer *introPlayer;
-    QLabel *login = new QLabel("Login With : ");
+    QLabel *login = new QLabel("Login With : ");                                    //Login Object
     Ui::MainWindow *ui;
-      QGroupBox *loginDetails;
-       QComboBox *loginCombo;
-       QPushButton *loginButton;
-       QGroupBox *createDetails;
-       QPushButton *male;
-       QPushButton *female;
-       QToolButton *hideButton = new QToolButton();
-       QLabel *create = new QLabel("Register New User");
-       QPushButton *createButton = new QPushButton("Save");
+      QGroupBox *loginDetails;                                    //Login Object
+       QComboBox *loginCombo;                                    //Login Object
+       QPushButton *loginButton;                                    //Login Object
+       QGroupBox *createDetails;                                    //Login Object
+       QPushButton *male;                                    //Login Object
+       QPushButton *female;                                    //Login Object
+       QToolButton *hideButton = new QToolButton();                                    //Login Object
+       QLabel *create = new QLabel("Register New User");                                    //Login Object
+       QPushButton *createButton = new QPushButton("Save");                                    //Login Object
            bool showit= true;
-             QLineEdit *name = new QLineEdit();
+             QLineEdit *name = new QLineEdit();                                    //Login Object
              QLabel *nameLabel = new QLabel("Name :");
               QLabel *examTimerLabel = new QLabel("Name :");
              int indexed=0;

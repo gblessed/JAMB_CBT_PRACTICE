@@ -48,7 +48,6 @@ var q10a=" number of shells";
 var q10b=" atomic number ";
 var q10c=" chemical properties ";
 var q10d=" physical properties";
-
 var q11=" In the course of purifying water for town supply ,the water is passed through large settling tanks containing sodium aluminate (iii) to remove ";
 var q11a="large particles";
 var q11b=" germs";
@@ -94,8 +93,6 @@ var q19a="5.0cm3 ";
 var q19b=" 2.5cm3 ";
 var q19c=" 0.4cm3 ";
 var q19d=" 0.1cm3";
-
-
 var q20="The colour of methyl orange in alkaline mediums is  ";
 var q20a=" yellow";
 var q20b=" pink";
@@ -251,208 +248,53 @@ var q50a=" 1";
 var q50b=" 2";
 var q50c=" 3";
 var q50d=" 4";
-
-
-        if(chem1="1c")
-		{
-		var m1=2;	
-		
-		}
-		if(chem2="2b")
-		{
-		var m2=2;	
-		
-		}if(chem3="3c")
-		{
-		var m3=2;	
-		
-		}if(chem4="4d")
-		{
-		var m4=2;	
-		
-		}if(chem5="5b")
-		{
-		var m5=2;	
-		
-		}if(chem6="6b")
-		{
-		var m6=2;	
-		
-		}if(chem7="7a")
-		{
-		var m7=2;	
-		
-		}if(chem8="8b")
-		{
-		var m8=2;	
-		
-		}if(chem9="9b")
-		{
-		var m9=2;	
-		
-		}if(chem10="10a")
-		{
-		var m10=2;	
-		
-		}if(chem11="11c")
-		{
-		var m11=2;	
-		
-		}if(chem12="12a")
-		{
-		var m12=2;	
-		
-		}if(chem13="13c")
-		{
-		var m13=2;	
-		
-		}if(chem14="14b")
-		{
-		var m14=2;	
-		
-		}if(chem15="15b")
-		{
-		var m15=2;	
-		
-		}if(chem16="16d")
-		{
-		var m16=2;	
-		
-		}if(chem17="17b")
-		{
-		var m17=2;	
-		
-		}if(chem18="18d")
-		{
-		var m18=2;	
-		
-		}if(chem19="19b")
-		{
-		var m19=2;	
-		
-		}if(chem20="20a")
-		{
-		var m20=2;	
-		
-		}if(chem21="21c")
-		{
-		var m21=2;	
-		
-		}if(chem22="22c")
-		{
-		var m22=2;	
-		
-		}if(chem23="23d")
-		{
-		var m23=2;	
-		
-		}if(chem24="24d")
-		{
-		var m24=2;	
-		
-		}if(chem25="25b")
-		{
-		var m25=2;	
-		
-		}if(chem26="26a")
-		{
-		var m26=2;	
-		
-		}if(chem27="27c")
-		{
-		var m27=2;	
-		
-		}if(chem28="28d")
-		{
-		var m28=2;	
-		
-		}if(chem29="29d")
-		{
-		var m29=2;	
-		
-		}if(chem30="30b")
-		{
-		var m30=2;	
-		
-		}if(chem31="31d")
-		{
-		var m31=2;	
-		
-		}if(chem32="32a")
-		{
-		var m32=2;	
-		
-		}if(chem33="33b")
-		{
-		var m33=2;	
-		
-		}if(chem34="34c")
-		{
-		var m34=2;	
-		
-		}if(chem35="35a")
-		{
-		var m35=2;	
-		
-		}if(chem36="36b")
-		{
-		var m36=2;	
-		
-		}if(chem37="37a")
-		{
-		var m37=2;	
-		
-		}if(chem38="38d")
-		{
-		var m38=2;	
-		
-		}if(chem39="39a")
-		{
-		var m39=2;	
-		
-		}if(chem40="40c")
-		{
-		var m40=2;	
-		
-		}if(chem41="41a")
-		{
-		var m41=2;	
-		
-		}if(chem42="42c")
-		{
-		var m42=2;	
-		
-		}if(chem43="43d")
-		{
-		var m43=2;	
-		
-		}if(chem44="44b")
-		{
-		var m44=2;	
-		
-		}if(chem45="45b")
-		{
-		var m45=2;	
-		
-		}if(chem46="46c")
-		{
-		var m46=2;	
-		
-		}if(chem47="47b")
-		{
-		var m47=2;	
-		
-		}if(chem48="48a")
-		{
-		var m48=2;	
-		
-		}if(chem49="49d")
-		{
-		var m49=2;	
-		
-		}if(chem50="50a")
-		{
-		var m50=2;	
-	
-		}	
-}
+if(chem1="01c")
+if(chem2="02b")
+if(chem3="03c")
+if(chem4="04d")
+if(chem5="05b")
+if(chem6="06b")
+if(chem7="07a")
+if(chem8="08b")
+if(chem9="09b")
+if(chem10="10a")
+if(chem11="11c")
+if(chem12="12a")
+if(chem13="13c")
+if(chem14="14b")
+if(chem15="15b")
+if(chem16="16d")
+if(chem17="17b")
+if(chem18="18d")
+if(chem19="19b")
+if(chem20="20a")
+if(chem21="21c")
+if(chem22="22c")
+if(chem23="23d")
+if(chem24="24d")
+if(chem25="25b")
+if(chem26="26a")
+if(chem27="27c")
+if(chem28="28d")
+if(chem29="29d")
+if(chem30="30b")
+if(chem31="31d")
+if(chem32="32a")
+if(chem33="33b")
+if(chem34="34c")
+if(chem35="35a")
+if(chem36="36b")
+if(chem37="37a")
+if(chem38="38d")
+if(chem39="39a")
+if(chem40="40c")
+if(chem41="41a")
+if(chem42="42c")
+if(chem43="43d")
+if(chem44="44b")
+if(chem45="45b")
+if(chem46="46c")
+if(chem47="47b")
+if(chem48="48a")
+if(chem49="49d")
+if(chem50="50a")	

@@ -3,10 +3,10 @@
 # Project created by QtCreator 2019-02-04T15:48:42
 #
 #-------------------------------------------------
-QT       += core gui
+QT       += core gui sql widgets
 QT += multimedia multimediawidgets
-QT       += core gui sql
 
+CONFIG += c++17
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,12 +27,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
+        maindialog.cpp \
         mainwindow.cpp
 
 HEADERS += \
+        maindialog.h \
         mainwindow.h
 
 FORMS += \
+        maindialog.ui \
         mainwindow.ui
 
 RESOURCES += \
