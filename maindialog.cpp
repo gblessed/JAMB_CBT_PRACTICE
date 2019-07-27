@@ -31,14 +31,26 @@ MainDialog::MainDialog(QWidget *parent) :
     pal.setBrush(QPalette::Background, QPixmap(":/new/CBT-Lab1.jpg"));
     setPalette(pal);
 
-//    QWidget* widget = new QWidget();
-//    QPalette widgetPalette;
-//    widgetPalette.setBrush(QPalette::Window, QBrush(QColor("darkslateblue"), Qt::SolidPattern));
-//    widget->setPalette(widgetPalette);
-//    widget->setGeometry(0, 0, this->width(), this->width());
+    QWidget* widget = new QWidget();
+    QPalette widgetPalette;
+    widgetPalette.setBrush(QPalette::Window, QBrush(QColor("darkslateblue"), Qt::SolidPattern));
+    widget->setPalette(widgetPalette);
+    widget->setGeometry(0, 0, this->width(), this->width());
 
-//    stackWidget->addWidget(widget);
-//    stackWidget->setCurrentIndex(0);
+
+    QBoxLayout *widgetLayout = new QVBoxLayout;
+    introDisplay= new QVideoWidget;
+    introPlayer = new QMediaPlayer;
+           introPlayer->setMedia(QUrl("qrc:/new/IntroVideo.mp4"));
+           introPlayer->setVideoOutput(introDisplay);
+           introPlayer->setVolume(50);
+           //connect(introPlayer, &QMediaPlayer::stateChanged, this, &MainWindow::stateChanged);
+           introPlayer->play();
+
+           widgetLayout->addWidget(introDisplay);
+                 widget->setLayout(widgetLayout);
+    stackWidget->addWidget(widget);
+    stackWidget->setCurrentIndex(0);
 }
 
 MainDialog::~MainDialog()
