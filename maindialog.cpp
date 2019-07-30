@@ -41,14 +41,14 @@ MainDialog::MainDialog(QWidget *parent) :
     QBoxLayout *widgetLayout = new QVBoxLayout;
     introDisplay= new QVideoWidget;
     introPlayer = new QMediaPlayer;
-           introPlayer->setMedia(QUrl("qrc:/new/IntroVideo.mp4"));
-           introPlayer->setVideoOutput(introDisplay);
-           introPlayer->setVolume(50);
-           //connect(introPlayer, &QMediaPlayer::stateChanged, this, &MainWindow::stateChanged);
-           introPlayer->play();
+    introPlayer->setMedia(QUrl("qrc:/new/IntroVideo.mp4"));
+    introPlayer->setVideoOutput(introDisplay);
+    introPlayer->setVolume(50);
+    //connect(introPlayer, &QMediaPlayer::stateChanged, this, &MainWindow::stateChanged);
+    introPlayer->play();
 
-           widgetLayout->addWidget(introDisplay);
-                 widget->setLayout(widgetLayout);
+    widgetLayout->addWidget(introDisplay);
+    widget->setLayout(widgetLayout);
     stackWidget->addWidget(widget);
     stackWidget->setCurrentIndex(0);
 }

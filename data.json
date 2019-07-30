@@ -5,7 +5,6 @@
         ]
     },
     {
-        "id": "questionslist",
         "chemistry": [
             {
                 "answer": 2,
@@ -556,6 +555,559 @@
                     " 4"
                 ],
                 "question": " The basicity of CH<sub>3</sub>COOH is"
+            }
+        ],
+        "id": "questionslist",
+        "physics": [
+            {
+                "answer": 1,
+                "id": 1,
+                "options": [
+                    " 360cm<sup>3</sup> ",
+                    " 600cm<sup>3</sup>",
+                    " 240cm<sup>3</sup>  ",
+                    " 800cm<sup>3</sup> "
+                ],
+                "question": "  The density of 400cm<sup>3</sup> of palm oil was 0.9 g cm<sup>-3</sup> before frying. if the density of the oil was 0.6 gm<sup>-3</sup> after frying, assuming no loss of oil due to spilling, its new volume was   "
+            },
+            {
+                "answer": 2,
+                "id": 2,
+                "options": [
+                    "  The load carried by the machine divided by effort required in carrying the load  ",
+                    "  The distance moved by the effort  ",
+                    " The useful work done by the machine divided by the total work put into it.  ",
+                    "  The movement of the load divided by the movement of the effort about the same point  "
+                ],
+                "question": "  Which of the following statements defines correctly the efficiency of a machine?   "
+            },
+            {
+                "answer": 0,
+                "id": 3,
+                "options": [
+                    " 10<sup>5</sup> J  ",
+                    " 2.5 x10<sup>3</sup>J   ",
+                    "  2 x 10<sup>3</sup>J  ",
+                    "  5 x 10<sup>3</sup>J  "
+                ],
+                "question": " A 500kg car which was initially at rest travelled with an acceleration of 5m sec<sup>-2</sup>, its kinetic energy after 4 seconds was    "
+            },
+            {
+                "answer": 0,
+                "id": 4,
+                "options": [
+                    "  The polished vessel will cool faster because a polished surface is a good radiator ",
+                    "  The polished vessel will cool faster because it will cool faster because it is a better conductor of heat ",
+                    "  The polished vessel will cool faster because it reflects heat better ",
+                    "  The black vessels will cool faster because a black surface radiates heat faster than a polished one "
+                ],
+                "question": "   Two closed vessels contain equal volumes of boiling water and are identical except that one is blackened on the outside while the other is polished. Which of the following is correct?  "
+            },
+            {
+                "answer": 3,
+                "id": 5,
+                "options": [
+                    " boiling point   ",
+                    "  melting point  ",
+                    "  triple point  ",
+                    "  dew point  "
+                ],
+                "question": " The temperature at which the water vapour present in the air saturates the air and begins to condense is known as    "
+            },
+            {
+                "answer": 0,
+                "id": 6,
+                "options": [
+                    "  sound waves  ",
+                    "  light waves  ",
+                    "  infra-red waves  ",
+                    "  x-radiation  "
+                ],
+                "question": "  Which one of the following types of waves cannot travel through a vacuum?   "
+            },
+            {
+                "answer": 3,
+                "id": 7,
+                "options": [
+                    "  4 ",
+                    " &Pi;/2  ",
+                    "  1/4 ",
+                    "  2 "
+                ],
+                "question": "\tIf in a simple pendulum experiment the length of the inextensible string is increased by a factor of four, its period is increased by a factor of "
+            },
+            {
+                "answer": 2,
+                "id": 8,
+                "options": [
+                    "  Claw hammer  ",
+                    "  Wheel barrow ",
+                    "  Single moving pulley ",
+                    " Sugar tongs  "
+                ],
+                "question": " Which of the following machines does NOT apply the lever principle?   "
+            },
+            {
+                "answer": 3,
+                "id": 9,
+                "options": [
+                    " +208<sup>o</sup>C to +212<sup>o</sup>C ",
+                    " -80<sup>o</sup>C + -76<sup>o</sup>C   ",
+                    "  -4<sup>o</sup>C to 0<sup>o</sup>C  ",
+                    "  0<sup>o</sup>C to + 4<sup>o</sup>C "
+                ],
+                "question": "   In what range of temperature is the expansion of water anomalous?  "
+            },
+            {
+                "answer": 3,
+                "id": 10,
+                "options": [
+                    " gaseous ",
+                    " unsaturated ",
+                    " liquefied ",
+                    " saturated "
+                ],
+                "question": " When the vapour of a substance is in equilibrium with its own liquid, it is said to be  "
+            },
+            {
+                "answer": 3,
+                "id": 11,
+                "options": [
+                    " pipette ",
+                    " burette ",
+                    " measuring cylinder ",
+                    " density bottle "
+                ],
+                "question": " The accurate measurement of the relative density of a substances in powder or granular form can be done using a beam balance and a   "
+            },
+            {
+                "answer": 0,
+                "id": 12,
+                "options": [
+                    " pressure cookers ",
+                    " laundary irons ",
+                    " hot water storage tanks ",
+                    " aquaria for tropical fish "
+                ],
+                "question": "  Which of the following statements is NOT true ? Thermostats are used to control the temprature of "
+            },
+            {
+                "answer": 2,
+                "id": 13,
+                "options": [
+                    " 6s ",
+                    " 3.6s  ",
+                    " 0.17s  ",
+                    " 0.61s  "
+                ],
+                "question": " If the wavelength of a wave travelling with a velocity of  360 ms<sup>-1</sup> is 60m, the period of the wave is   "
+            },
+            {
+                "answer": 3,
+                "id": 14,
+                "options": [
+                    "  7.5cm ",
+                    " 9cm ",
+                    " 10.8cm  ",
+                    " 12cm "
+                ],
+                "question": "  The heights of the mercury thread in a mercury-in-glass thermometer when in melting ice and then in steam are 3cm and 18cm respectively. At a temperature of 60<sup>o</sup>C the height would be  "
+            },
+            {
+                "answer": 0,
+                "id": 15,
+                "options": [
+                    " 20cm ",
+                    " 45cm",
+                    " 63cm ",
+                    " 70cm "
+                ],
+                "question": "  An object 15cm high is 30cm from a pin-hole camera, if the height of the image formed at the back of the camera is 10cm , the image distance is  "
+            },
+            {
+                "answer": 2,
+                "id": 16,
+                "options": [
+                    " 0 ",
+                    " 2/3 ",
+                    " 1 ",
+                    " 2 "
+                ],
+                "question": " An object is placed 30cm from a concave mirror of image produced is   "
+            },
+            {
+                "answer": 3,
+                "id": 17,
+                "options": [
+                    " Hooke's law ",
+                    " Boyle's law  ",
+                    " Dalton's law  ",
+                    " Charles' law  "
+                ],
+                "question": "  If a given mass of gas at constant pressure obeys the relation..... volume is proportional to the absolute temperature..... the gas is said to obey  "
+            },
+            {
+                "answer": 3,
+                "id": 18,
+                "options": [
+                    " Eight ",
+                    " Two ",
+                    " Four ",
+                    " Infinite "
+                ],
+                "question": "  A man standing between two parallel mirrors in a barber's shop will see the following number of his own image  "
+            },
+            {
+                "answer": 3,
+                "id": 19,
+                "options": [
+                    " a larger number of turns in the coil  ",
+                    " a thinner suspension with a small torsional control ",
+                    " a special alloy permanent magnet which gives a high magnetic flux ",
+                    " all of the above  "
+                ],
+                "question": " Which of the following statements is incorrect? The sensitivity of  a galvanometer which incorporates  an optical lever arrangement ma be increased by providing :"
+            },
+            {
+                "answer": 0,
+                "id": 20,
+                "options": [
+                    " N5.70  ",
+                    " N7.23  ",
+                    " N3.65  ",
+                    " N8.05  "
+                ],
+                "question": "  A landlord has eight 40W electric light bulbs, four 60W bulbs and two 100W bulbs in his house. If the has all the points on for five hours daily and if N.E.P.A charges 5k per unit, his bill for 30 days is  "
+            },
+            {
+                "answer": 2,
+                "id": 21,
+                "options": [
+                    " interference ",
+                    " diffraction ",
+                    " superposition ",
+                    " forced vibrations "
+                ],
+                "question": "The combination of sound waves with different frequencies is known as    "
+            },
+            {
+                "answer": 0,
+                "id": 22,
+                "options": [
+                    "the cross-sectional area of the tube   ",
+                    " the atmospheric pressure  ",
+                    " the density of mercury  ",
+                    " the acceleration due to gravity "
+                ],
+                "question": " Which of the following statements is correct? the reading of pressure on a mercury barometer is independent of   "
+            },
+            {
+                "answer": 1,
+                "id": 23,
+                "options": [
+                    " 0.026 per degree centigrade ",
+                    " 0.00026 per degree centigrade ",
+                    " 0.26 per degree centigrade ",
+                    " 1.0026 per degree centigrade "
+                ],
+                "question": " A rod of length 10cm is heated through 100<sup>o</sup>C and its final length is 10.26cm. What is the co-efficient of linear expansion of the rod?  "
+            },
+            {
+                "answer": 1,
+                "id": 24,
+                "options": [
+                    " kg.m.sec<sup>2</sup>  ",
+                    " joule sec<sup>-1</sup> m<sup>-1</sup> k<sup>-1</sup>  ",
+                    " kg. m  ",
+                    " Newton sec<sup>-1</sup> m<sup>-1</sup> k<sup>-1</sup>  "
+                ],
+                "question": " What are the units of thermal conductivity?  "
+            },
+            {
+                "answer": 0,
+                "id": 25,
+                "options": [
+                    " 45<sup>o</sup> ",
+                    " 50<sup>o</sup>12<sup>'</sup>  ",
+                    " 56<sup>o</sup>25<sup>'</sup> ",
+                    " 75<sup>o</sup> "
+                ],
+                "question": " If the refractive index of a medium is &radic;2, What is the critical angle ?  "
+            },
+            {
+                "answer": 0,
+                "id": 26,
+                "options": [
+                    " heating the bar to a high temperature  ",
+                    " breaking the bar  ",
+                    " connecting opposite poles  with a small piece of iron  ",
+                    " placing the bar inside a strong magnetic field "
+                ],
+                "question": " Which of the following statements is correct? The  magnetized state of an iron gar can be destroyed completely by   "
+            },
+            {
+                "answer": 1,
+                "id": 27,
+                "options": [
+                    " 5 volts  ",
+                    " 3.5 volts  ",
+                    " 2.5 volts  ",
+                    " 1 volt  "
+                ],
+                "question": "  An electric cell has an internal resistance of 2 ohms. A current of 0.5 is found to flow when a resistor of 5 ohms resistance is connected across it. What is the electromotive force of the cell?  "
+            },
+            {
+                "answer": 1,
+                "id": 28,
+                "options": [
+                    " The average life-time of a radioactive material  ",
+                    " The time it takes a radioactive material to decay to half of its original quantity ",
+                    " Half the period a radioactive material decays completely ",
+                    " Half of the decay constant  "
+                ],
+                "question": " Which of the following is the correct definition of 'half-life'?\t "
+            },
+            {
+                "answer": 3,
+                "id": 29,
+                "options": [
+                    "6<sup>2</sup>/40<sup>2</sup>ohms   ",
+                    "40/6<sup>2</sup>ohms   ",
+                    " 40/6 ohms  ",
+                    " 6<sup>2</sup>/40 ohms "
+                ],
+                "question": "  The bulb of a motorcycle head-lamp is marked 40W, 6V. The resistance of the filament when it is switched on is  "
+            },
+            {
+                "answer": 0,
+                "id": 30,
+                "options": [
+                    " 0.00004g/C ",
+                    " 0.00002g/C  ",
+                    " 0.02500g/C  ",
+                    " 0.05000g/C  "
+                ],
+                "question": " In an electrolysis experiment, a cathode of mass 5g is found to weigh 5.01g after a current of 5A flows for 50 seconds. What is the electrochemical equivalent of the deposited substance?   "
+            },
+            {
+                "answer": 2,
+                "id": 31,
+                "options": [
+                    "I, ii, iii, iv only   ",
+                    " iv and v only  ",
+                    " I, ii, and iii only  ",
+                    " I, ii, and v only  "
+                ],
+                "question": "  Which of the following statements about radioactivity are true? (i) Alpha particle is positively charged (ii) Beta particles is negatively charged (iii) Gamma ray is neutral (iv) Beta particle has the same mass as helium atom (v) Gamma ray is charged.  "
+            },
+            {
+                "answer": 2,
+                "id": 32,
+                "options": [
+                    " 100cm ",
+                    " 100/9cm  ",
+                    " 60cm ",
+                    " 60/7cm  "
+                ],
+                "question": " A concave lens of focal length 20cm forms an image 1/2 the size of the object. The object distance is   "
+            },
+            {
+                "answer": 1,
+                "id": 33,
+                "options": [
+                    " decrease to zero ",
+                    " steadily increase ",
+                    " decrease to zero and then increase ",
+                    " remain constant "
+                ],
+                "question": " As a positively charged rod is brought nearer to the top cap of a positively charged gold leaf electroscope, the divergence of the leaves will   "
+            },
+            {
+                "answer": 0,
+                "id": 34,
+                "options": [
+                    " The thick tumbler is less likely to crack because it is stronger ",
+                    " The thick tumbler is less likely to crack because it insulates the heat better, glass being a poor conductor of heat.  ",
+                    "Both tumblers are equally likely to crack because they are made of the same kind of glass  ",
+                    " The thick tumbler is more likely to crack because uneven expansion persists for a longer time within the thicker glass  "
+                ],
+                "question": " Consider a thick glass tumbler and a thin glass tumbler which are made of the same kind of glass. Some hot liquid is poured into them. Which of the following statements correct?   "
+            },
+            {
+                "answer": 3,
+                "id": 35,
+                "options": [
+                    " twice the e.m.f. of the accumulator  ",
+                    " less than the e.m.f.  by the potential drop across the resistor    ",
+                    " zero ",
+                    " greater than the e.m.f "
+                ],
+                "question": "  A capacitor and a resistor are connected in series with each other and in series with an accumulator of negligible internal resistance. The potential difference across the terminals of the capacitors is  "
+            },
+            {
+                "answer": 2,
+                "id": 36,
+                "options": [
+                    " 500,000N ",
+                    " 500N ",
+                    " 50N ",
+                    " 5,000N "
+                ],
+                "question": " A rocket burns 0.01kg of fuel each seconds and ejects it as a gas with a velocity of 5,000m/s .What force does the gas exerts on the rocket?  "
+            },
+            {
+                "answer": 3,
+                "id": 37,
+                "options": [
+                    " proportional to its length  ",
+                    " inversely proportional to the tension within it ",
+                    " proportional to the aptitude of vibration  ",
+                    " proportional to the square root of the tension within it "
+                ],
+                "question": " Which of the following statements is true? The frequency of a vibrating string is "
+            },
+            {
+                "answer": 3,
+                "id": 38,
+                "options": [
+                    "10.0cm<sup>3</sup>   ",
+                    " 2.0cm<sup>3</sup>  ",
+                    " 1.6cm<sup>3</sup>  ",
+                    " 0.5cm<sup>3</sup>  "
+                ],
+                "question": " An air bubble rises from the bottom to the top of a water dam which is 40m deep. The volume of the bubble just below the surface is 2.5cm<sup>3</sup>. Find its volume at the bottom of the dam, if atmospheric pressure is equivalent to 10m of water.  "
+            },
+            {
+                "answer": 3,
+                "id": 39,
+                "options": [
+                    " 5 x 10<sup>6</sup> ",
+                    " 1.0 x 10<sup>6</sup> ",
+                    " 2.5 x 10<sup>6</sup> ",
+                    " 5.0 x 10<sup>5</sup> "
+                ],
+                "question": " A heater marked 50W will evaporate 0.005kg of boiling water in 50 seconds. The specific latent heat of vapourization of water in J/kg is   "
+            },
+            {
+                "answer": 1,
+                "id": 40,
+                "options": [
+                    " Radio waves  ",
+                    " X-rays  ",
+                    " infra-red  ",
+                    " Blue light  "
+                ],
+                "question": " Which of the following electromagnetic waves has the shortest wavelength?  "
+            },
+            {
+                "answer": 2,
+                "id": 41,
+                "options": [
+                    " 120J ",
+                    " 60Jg<sup>-1</sup>  ",
+                    " 120Jg<sup>-1</sup>  ",
+                    " 1500J "
+                ],
+                "question": "  All the heat generated in a 5 ohm resistor by 2A flowing for 30seconds is used to evaporate 5g of a liquid at its boiling point. Which of the following is the correct value of the specific latent heat of the liquid?  "
+            },
+            {
+                "answer": 1,
+                "id": 42,
+                "options": [
+                    " 4 x 10<sup>8</sup>ms<sup>-1</sup>  ",
+                    " 2.25 x 10<sup>8</sup>ms<sup>-1</sup>  ",
+                    " 4/9 x 10<sup>8</sup>ms<sup>-1</sup>  ",
+                    " 2.25 x 10<sup>8</sup>ms<sup>-2</sup> "
+                ],
+                "question": " The speed of light in air is 3 x 10<sup>8</sup>ms<sup>-1</sup>. If the refractive index of light from air-to water is 4/3, then which of the following is the correct value of the speed of light in water?   "
+            },
+            {
+                "answer": 3,
+                "id": 43,
+                "options": [
+                    " Magnetic effect of electric current ",
+                    " Electromagnetic induction  ",
+                    " Chemical reaction produced by electricity  ",
+                    "  Force on a current carrying conductor in a magnet field."
+                ],
+                "question": " On which of the following is the operation of a moving coil galvanometer based?   "
+            },
+            {
+                "answer": 2,
+                "id": 44,
+                "options": [
+                    " a little above half of its initial energy ",
+                    " a little below half of its initial energy  ",
+                    " a half of its initial energy ",
+                    " a little above its initial energy  "
+                ],
+                "question": " A body is released from rest and allowed to fall freely from a given height under gravity. The kinetic energy at its half-way point is   "
+            },
+            {
+                "answer": 1,
+                "id": 45,
+                "options": [
+                    " 2.00 ohms ",
+                    " 13.00 ohms ",
+                    " 0.52 ohms ",
+                    " 0.13 ohms "
+                ],
+                "question": "A high - resistance voltmeter reads 3.0V when connected across the terminals of a battery on open circuit and 2.6V when the battery supplies a current of 0.2A through a lamp. The resistance of lamp is    "
+            },
+            {
+                "answer": 3,
+                "id": 46,
+                "options": [
+                    " an electron  ",
+                    " a beta-particle  ",
+                    " an alpha-particle  ",
+                    " a proton  "
+                ],
+                "question": " It is known that a neutron exists in a light atomic nucleus. Which of the following also exists in the nucleus?   "
+            },
+            {
+                "answer": 0,
+                "id": 47,
+                "options": [
+                    " 50cm ",
+                    " 20cm ",
+                    " 10cm ",
+                    " 30cm "
+                ],
+                "question": "  A weight of 1000 grams hangs from a lever 20cm to the right of the fulcrum. At the left is a 500-gram weight 20cm from the fulcrum, and a 200-gram weight x cm away form the fulcrum. What is the value of x that will make the lever balanced?  "
+            },
+            {
+                "answer": 3,
+                "id": 48,
+                "options": [
+                    " a microphone  ",
+                    " a television camera  ",
+                    "  an antenna ",
+                    " a transmitter. "
+                ],
+                "question": " Radio carrier waves are generated by causing electrons to oscillate rapidly in   "
+            },
+            {
+                "answer": 3,
+                "id": 49,
+                "options": [
+                    " acceleration ",
+                    " velocity ",
+                    " power ",
+                    " work "
+                ],
+                "question": " The area under a force-distance graph represents   "
+            },
+            {
+                "answer": 3,
+                "id": 50,
+                "options": [
+                    " heat loss due to conduction  ",
+                    " vacuum loss  ",
+                    "  heat entry into inner flask due to convention ",
+                    "  heat loss due to radiation "
+                ],
+                "question": " Which of the following statements is correct? Silvered walls of a vacuum flask are used to prevent  "
             }
         ]
     }

@@ -31,6 +31,7 @@ SOURCES += \
         mainwindow.cpp
 
 HEADERS += \
+        jstojson.h \
         maindialog.h \
         mainwindow.h
 
