@@ -44,7 +44,7 @@ MainDialog::MainDialog(QWidget *parent) :
     introPlayer->setMedia(QUrl("qrc:/new/IntroVideo.mp4"));
     introPlayer->setVideoOutput(introDisplay);
     introPlayer->setVolume(50);
-    //connect(introPlayer, &QMediaPlayer::stateChanged, this, &MainWindow::stateChanged);
+   // connect(introPlayer, &QMediaPlayer::stateChanged, this, &MainDialog::stateChanged);
     introPlayer->play();
 
     widgetLayout->addWidget(introDisplay);

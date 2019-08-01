@@ -23,14 +23,14 @@ public:
         //Next few lines of code will be able to navigate to your project directory.
         QDir myDir;
         QString path;
-        Q_UNUSED(myDir.cd(app->applicationDirPath()));
+        Q_UNUSED(myDir.cd(app->applicationDirPath())); // cd returns a bool that is not used.
         path = myDir.currentPath();
         path = path.replace(path.section("/", -1), app->applicationName());
         Q_UNUSED(myDir.setCurrent(path));
 
         //Next few lines of code will setup your db file path and the subject path.
         QString dataPath(myDir.currentPath() + "/data.json");
-        QString subjectPath(myDir.currentPath() + "/phy-2-ask.txt"); //Change the subject file name and file extension for other subjects.
+        QString subjectPath(myDir.currentPath() + "/phy.txt"); //Change the subject file name and file extension for other subjects.
         myFile.setFileName(dataPath);
         subjectFile.setFileName(subjectPath);
         if(!myFile.open(QIODevice::ReadWrite | QIODevice::Text))
@@ -48,9 +48,9 @@ public:
         questions = questionList.operator[](subject).toArray();
 
         //Uncomment this section of lines to perform a new subject operation
-//        Q_UNUSED(getQuestionFromFile());
-//        Q_UNUSED(getOptionsFromFile());
-//        Q_UNUSED(getAnswerFromFile());
+        Q_UNUSED(getQuestionFromFile());
+        Q_UNUSED(getOptionsFromFile());
+        Q_UNUSED(getAnswerFromFile());
 
 
         //Cleanup to update all changes made.
@@ -62,9 +62,9 @@ public:
 
     inline bool getQuestionFromFile()
     {
-        int i = 1;
+        int i = 0;
         int j = 1;
-        QRegularExpression reg("(\")(.*)(\")");
+        QRegularExpression reg("(.*)");
         QString line;
         if(questionList.contains(subject))
         {
@@ -72,14 +72,14 @@ public:
             {
                 qDebug().noquote() << "Why now?";
             }
-            while(!subjectFile.atEnd() && j <= 250)
+            while(!subjectFile.atEnd() && j <= 500)
             {
                 line = QString(subjectFile.readLine());
                 quest.insert("id", QJsonValue(i));
                 QRegularExpressionMatch match = reg.match(line);
                 if(match.hasMatch() && (j % 10 == 6 || j % 10 == 1))
                 {
-                    line = match.captured(2);
+                    line = match.captured(1);
                     quest.insert("question", QJsonValue(line));
                     questions.append(QJsonValue(quest));
                     i++;
@@ -100,7 +100,7 @@ public:
     {
         int i = 0;
         int j = 1;
-        QRegularExpression reg("(\")(.*)(\")");
+        QRegularExpression reg("(.*)");
         QString line;
         if(questionList.contains(subject))
         {
@@ -109,7 +109,7 @@ public:
                 qDebug().noquote() << "Why now?";
             }
             QJsonArray options;
-            while(!subjectFile.atEnd() && j <= 250)
+            while(!subjectFile.atEnd() && j <= 500)
             {
                 line = QString(subjectFile.readLine());
                 quest = questions.operator[](i).toObject();
@@ -121,7 +121,7 @@ public:
                 QRegularExpressionMatch match = reg.match(line);
                 if(match.hasMatch() && !((j % 10 == 1) || (j % 10 == 6)))
                 {
-                    line = match.captured(2);
+                    line = match.captured(1);
                     options.append(QJsonValue(line));
                     quest.insert("options", QJsonValue(options));
                     questions.replace(i, QJsonValue(quest));
@@ -148,7 +148,7 @@ public:
         int j = 1;
         QChar ch('\0');
         int val = -1;
-        QRegularExpression reg("(\")(\\d\\d\\w)(\")");
+        QRegularExpression reg("(.*)");
         QString line;
         if(questionList.contains(subject))
         {
@@ -156,16 +156,17 @@ public:
             {
                 qDebug().noquote() << "Why now?";
             }
-            while(!subjectFile.atEnd() && j <= 300)
+            while(!subjectFile.atEnd() && j <= 600)
             {
                 line = QString(subjectFile.readLine());
                 quest = questions.operator[](i).toObject();
                 quest.insert("answer", QJsonValue(QJsonValue::Null));
                 QRegularExpressionMatch match = reg.match(line);
-                if(match.hasMatch() && j > 250)
+                if( j > 500)
                 {
-                    line = match.captured(2);
-                    ch = line.back();
+                    //line = match.captured(0);
+                    qDebug()<<line;
+                    ch = line.at(line.size()-2);
                     if(ch == 'a')
                     {
                         val = 0;
@@ -184,10 +185,12 @@ public:
                     }
                     quest.insert("answer", QJsonValue(val));
                     questions.replace(i, QJsonValue(quest));
+
                     i++;
                 }
                 j++;
             }
+
             questionList.insert(subject, QJsonValue(questions));
             subjectFile.close();
             return true;

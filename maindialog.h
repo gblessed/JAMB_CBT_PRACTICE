@@ -30,6 +30,7 @@ public:
 public slots:
     void showTime();
 
+
 private:
     Ui::MainDialog *ui;
 
@@ -37,6 +38,7 @@ private:
     QLabel* timeLabel;
     QVideoWidget *introDisplay;
         QMediaPlayer *introPlayer;
+
 };
 
 #endif // MAINDIALOG_H
