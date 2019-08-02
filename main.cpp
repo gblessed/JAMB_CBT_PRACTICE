@@ -6,7 +6,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+//    MainWindow w;
     MainDialog d;
    d.show();
    // JSToJson db(&a);     //Change

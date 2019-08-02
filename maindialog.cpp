@@ -38,9 +38,9 @@ MainDialog::MainDialog(QWidget *parent) :
     widget->setGeometry(0, 0, this->width(), this->width());
 
 
-    QBoxLayout *widgetLayout = new QVBoxLayout;
-    introDisplay= new QVideoWidget;
-    introPlayer = new QMediaPlayer;
+    QBoxLayout *widgetLayout = new QVBoxLayout();
+    introDisplay = new QVideoWidget();
+    introPlayer = new QMediaPlayer();
     introPlayer->setMedia(QUrl("qrc:/new/IntroVideo.mp4"));
     introPlayer->setVideoOutput(introDisplay);
     introPlayer->setVolume(50);

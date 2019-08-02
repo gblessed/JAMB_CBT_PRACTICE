@@ -26,14 +26,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
+        examdetailswidget.cpp \
+        examinationwidget.cpp \
+        introwidget.cpp \
+        loginwidget.cpp \
         main.cpp \
         maindialog.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        scorewidget.cpp
 
 HEADERS += \
+        examdetailswidget.h \
+        examinationwidget.h \
+        introwidget.h \
         jstojson.h \
+        loginwidget.h \
         maindialog.h \
-        mainwindow.h
+        mainwindow.h \
+        scorewidget.h
 
 FORMS += \
         maindialog.ui \

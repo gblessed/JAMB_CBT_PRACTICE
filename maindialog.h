@@ -15,6 +15,7 @@
 #include <QGridLayout>
 #include <QVideoWidget>
 #include <QMediaPlayer>
+
 namespace Ui {
 class MainDialog;
 }
@@ -37,7 +38,7 @@ private:
     QStackedWidget* stackWidget;
     QLabel* timeLabel;
     QVideoWidget *introDisplay;
-        QMediaPlayer *introPlayer;
+    QMediaPlayer *introPlayer;
 
 };
 
