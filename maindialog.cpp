@@ -38,18 +38,11 @@ MainDialog::MainDialog(QWidget *parent) :
     widget->setGeometry(0, 0, this->width(), this->width());
 
 
-    QBoxLayout *widgetLayout = new QVBoxLayout();
-    introDisplay = new QVideoWidget();
-    introPlayer = new QMediaPlayer();
-    introPlayer->setMedia(QUrl("qrc:/new/IntroVideo.mp4"));
-    introPlayer->setVideoOutput(introDisplay);
-    introPlayer->setVolume(50);
-   // connect(introPlayer, &QMediaPlayer::stateChanged, this, &MainDialog::stateChanged);
-    introPlayer->play();
 
-    widgetLayout->addWidget(introDisplay);
-    widget->setLayout(widgetLayout);
-    stackWidget->addWidget(widget);
+
+
+    stackWidget->addWidget(firstPage);
+    connect(firstPage->introPlayer, &QMediaPlayer::stateChanged,this, &MainDialog::stateChanged);
     stackWidget->setCurrentIndex(0);
 }
 
@@ -62,4 +55,11 @@ void MainDialog::showTime()
 {
     QTime presentTime = QTime::currentTime();
     timeLabel->setText("[" + presentTime.toString("hh:mm:ss") + "]");
+}
+
+void MainDialog::stateChanged(QMediaPlayer::State state){
+    if (state == QMediaPlayer::StoppedState){
+        stackWidget->removeWidget(firstPage);
+        delete firstPage;
+    }
 }

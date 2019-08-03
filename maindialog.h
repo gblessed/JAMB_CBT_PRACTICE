@@ -15,7 +15,7 @@
 #include <QGridLayout>
 #include <QVideoWidget>
 #include <QMediaPlayer>
-
+#include "introwidget.h"
 namespace Ui {
 class MainDialog;
 }
@@ -27,10 +27,10 @@ class MainDialog : public QDialog
 public:
     explicit MainDialog(QWidget *parent = nullptr);
     ~MainDialog();
-
+    IntroWidget *firstPage = new IntroWidget(this);
 public slots:
     void showTime();
-
+    void stateChanged(QMediaPlayer::State state);
 
 private:
     Ui::MainDialog *ui;
