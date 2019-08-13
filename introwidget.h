@@ -6,6 +6,7 @@
 #include <QMediaPlayer>
 #include <QVideoWidget>
 #include <QVBoxLayout>
+
 class IntroWidget : public QWidget
 {
     Q_OBJECT
